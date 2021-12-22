@@ -1,7 +1,7 @@
 const About = () => {
     return (
         <section id="about">
-            <div className="container text-xl mb-10 mx-auto flex px-10 py-20 cursor-pointer md:flex-row flex-col items-center">
+            <div className="container mx-auto flex px-10 py-28 cursor-pointer md:flex-row flex-col items-center">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <div>
                         <b>RLP Consulting</b> es una consultora boutique especializada en la provisión de servicios

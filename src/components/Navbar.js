@@ -21,7 +21,7 @@ const Navbar = () => {
                 </h3>
                 
                 <nav
-                    className="text-xl font-bold mb-4 sm:text-base md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l 
+                    className="font-bold mb-4 sm:text-base md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l 
                     md:border-gray-700 flex flex-nowrap items-center text-base justify-center"
                 >
                     <Link
@@ -38,20 +38,40 @@ const Navbar = () => {
                         duration={1000}
                         className="flex cursor-pointer mr-5 hover:opacity-50"
                     >
-                        Estructura
+                        Servicios
                     </Link>
-                    <a
-                        href="#"
+                    <Link
+                        to="projects"
+                        smooth={true}
+                        duration={1000}
                         className="flex cursor-pointer mr-5 hover:opacity-50"
                     >
-                        Servicios
-                    </a>
-                    <a
-                        href="#"
+                        Flujo
+                    </Link>
+                    <Link
+                        to="professionals"
+                        smooth={true}
+                        duration={1000}
+                        className="flex cursor-pointer mr-5 hover:opacity-50"
+                    >
+                        Profesionales
+                    </Link>
+                    <Link
+                        to="credentials"
+                        smooth={true}
+                        duration={1000}
                         className="flex cursor-pointer mr-5 hover:opacity-50"
                     >
                         Credenciales
-                    </a>
+                    </Link>
+                    <Link
+                        to="contact"
+                        smooth={true}
+                        duration={1000}
+                        className="flex cursor-pointer mr-5 hover:opacity-50"
+                    >
+                        Contacto
+                    </Link>
                 </nav>
             </div>
         </header>
