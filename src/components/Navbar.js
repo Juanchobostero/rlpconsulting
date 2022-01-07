@@ -8,7 +8,7 @@ const Navbar = () => {
     }
 
     return (
-        <header className="h-20 shadow-md bg-gray-100 sticky top-0 z-50">
+        <header className="md:h-20 shadow-md bg-gray-100 sticky top-0 z-50">
             <div className="container justify-between mx-auto flex flex-wrap p-5 flex-row sm:items-center">
                
                 <h3 

@@ -8,6 +8,7 @@ import Professionals from './components/Professionals';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Top from './components/Top';
+import FloatingWhatsApp from 'react-floating-whatsapp';
 
 function App() {
   return (
@@ -27,6 +28,15 @@ function App() {
         <Skills />
         <Credentials />
         <Contact />
+        <FloatingWhatsApp
+          avatar='./matias.png' 
+          phoneNumber='+56963548362'
+          accountName='Matias Romano'
+          statusMessage='En Línea'
+          chatMessage='Hola!. Cómo puedo ayudarte ?'
+          allowEsc={true}
+          allowClickAway={true}
+        /> 
       </main>
     </div>
   );
