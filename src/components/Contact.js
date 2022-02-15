@@ -2,7 +2,7 @@ const Contact = () => {
     return (
         <section id="contact">
             <div className="container mx-auto flex px-10 py-auto cursor-pointer md:flex-row flex-col items-center">
-                <div className="py-20 lg:flex-grow md:w-2/2 lg:pr-24 md:pr-16 flex flex-col md:items-center md:text-left mb-20 md:mb-0 items-center text-center">
+                <div className="w-full content-center py-20 lg:flex-grow md:w-2/2 lg:pr-24 md:pr-16 flex flex-col md:items-center md:text-left mb-20 md:mb-0 items-center text-center">
                     <h3 className="title-font sm:text-4xl mb-2 font-medium">
                         <span style={{ color: 'var(--blue-one)' }}>RLP </span><span style={{ color: 'var(--green)' }}>Consulting</span>
                     </h3>

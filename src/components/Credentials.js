@@ -2,7 +2,7 @@ const Credentials = () => {
     return (
         <section id="credentials">
             <div className="container mx-auto flex px-10 py-28 cursor-pointer md:flex-row flex-col items-center">
-                <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-20 md:mb-0 items-center text-center">
+                <div className="lg:flex-grow md:w-2/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-20 md:mb-0 items-center text-center">
                     <h1 style={{ color: 'var(--blue-one)' }} className="mb-5 sm:text-4xl text-3xl font-medium title-font">
                         Credenciales
                     </h1>
